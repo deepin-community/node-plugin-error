@@ -1,0 +1,17 @@
+# False positives
+source: insane-line-length-in-source-file debian/tests/modules/expect/lib/Expectation.js line length is 564 characters (>512)
+source: source-contains-prebuilt-javascript-object debian/tests/modules/expect/lib/Expectation.js line length is 564 characters (>512)
+source: source-is-missing debian/tests/modules/expect/lib/Expectation.js line length is 564 characters (>512)
+source: insane-line-length-in-source-file debian/tests/modules/expect/umd/expect.js line length is 565 characters (>512)
+source: source-contains-browserified-javascript debian/tests/modules/expect/umd/expect.js code fragment:(function webpackuniversalmoduledefinition(root, factory) { if(typeof exports === 'obje
+source: source-contains-prebuilt-javascript-object debian/tests/modules/expect/umd/expect.js line length is 564 characters (>512)
+source: source-is-missing debian/tests/modules/expect/umd/expect.js line length is 564 characters (>512)
+source: insane-line-length-in-source-file ansi-colors/bench/colors.js line length is 1163 characters (>512)
+source: source-contains-prebuilt-javascript-object ansi-colors/bench/colors.js line length is 1161 characters (>512)
+source: source-is-missing ansi-colors/bench/colors.js line length is 1161 characters (>512)
+source: insane-line-length-in-source-file ansi-colors/bench/dryrun.js line length is 1318 characters (>512)
+source: source-contains-prebuilt-javascript-object ansi-colors/bench/dryrun.js line length is 1318 characters (>512)
+source: source-is-missing ansi-colors/bench/dryrun.js line length is 1318 characters (>512)
+source: insane-line-length-in-source-file ansi-colors/examples/nested.js line length is 1354 characters (>512)
+source: source-contains-prebuilt-javascript-object ansi-colors/examples/nested.js line length is 1354 characters (>512)
+source: source-is-missing ansi-colors/examples/nested.js line length is 1354 characters (>512)

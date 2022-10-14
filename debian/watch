@@ -1,0 +1,16 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-plugin-error-$1.tar.gz/ \
+ https://github.com/gulpjs/plugin-error/releases .*/archive/v?([\d\.]+).tar.gz
+
+opts=\
+component=ansi-colors,\
+dversionmangle=auto,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-ansi-colors-$1.tar.gz/ \
+ https://github.com/doowb/ansi-colors/tags .*/archive/v?([\d\.]+).tar.gz ignore
+
+# It is not recommended use npmregistry. Please investigate more.
+# Take a look at https://wiki.debian.org/debian/watch/
+opts="searchmode=plain,component=ansi-wrap,pgpmode=none" \
+ https://registry.npmjs.org/ansi-wrap https://registry.npmjs.org/ansi-wrap/-/ansi-wrap-([\d\.]+)@ARCHIVE_EXT@ ignore

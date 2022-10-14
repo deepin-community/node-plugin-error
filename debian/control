@@ -1,0 +1,39 @@
+Source: node-plugin-error
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 12)
+ , dh-buildinfo
+ , nodejs
+ , node-arr-diff
+ , node-arr-union
+ , node-extend-shallow
+ , pkg-js-tools (>= 0.9.12~)
+ , mocha <!nocheck>
+ , node-function-bind <!nocheck>
+ , node-tmatch <!nocheck>
+ , node-object-inspect <!nocheck>
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-plugin-error
+Vcs-Git: https://salsa.debian.org/js-team/node-plugin-error.git
+Homepage: https://github.com/jonschlinkert/plugin-error
+Rules-Requires-Root: no
+
+Package: node-plugin-error
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-arr-diff
+ , node-arr-union
+ , node-extend-shallow
+Description: Error handling for vinyl plugins
+ Just an abstraction of what's in gulp-util with minor changes.
+ .
+ By default the stack will not be shown. Set options.showStack to true if you
+ think the stack is important for your error.
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,38 @@
+node-plugin-error (1.0.1+repack-1) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable after successful tests
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Clean test files
+  * Replace ansi-color embedding by components and repack
+  * Switch install to pkg-js-tools
+  * Update lintian overrides
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 26 Nov 2019 06:46:02 +0100
+
+node-plugin-error (1.0.1-1) experimental; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 11
+  * Declare compliance with policy 4.3.0
+  * Add debian/gbp.conf
+  * Update debian/watch to use Github tags
+  * New upstream version 1.0.1
+  * Enable upstream test using pkg-js-tools. This adds some little modules in
+    debian/tests/modules
+  * Replace little embedded modules: ansi-colors instead of ansi-cyan and
+    ansi-red
+  * Add source/lintian-overrides
+  * Update VCS fields to salsa
+  * Update debian/copyright
+  * Add upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 06 Jun 2019 15:47:59 +0200
+
+node-plugin-error (0.1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #886309)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 04 Jan 2018 15:44:29 +0530
